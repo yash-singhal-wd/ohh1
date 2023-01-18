@@ -86,7 +86,7 @@ if __name__ =="__main__":
         print("Invalid credentials!")
         exit()
 
-    print("\nConnected...")
+    print("\nConnected....")
 
     t1 = threading.Thread(target=clientRequestProcesor, args=(ftp,ftpUname))
     t1.start()
